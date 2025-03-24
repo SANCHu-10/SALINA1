@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0fff0;
+            color: #006400;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .menu-container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 100, 0, 0.3);
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #004d00;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 2px dashed #c8e6c9;
+            background: rgba(0, 100, 0, 0.05);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+            background: rgba(0, 100, 0, 0.1);
+        }
+        .menu-item img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        .menu-item span {
+            flex: 1;
+            text-align: left;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .price {
+            font-size: 18px;
+            font-weight: 600;
+            color: #004d00;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌿 SALINA CAFE Menu 🌿</h1>
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="assets/img/Paneertikka.png" alt="Paneer Tikka">
+            <span>Paneer Tikka</span>
+            <span class="price">₹210</span>
+        </div>
+        <div class="menu-item">
+            <img src="assets/img/Masaladosa.png" alt="Masala Dosa">
+            <span>Masala Dosa</span>
+            <span class="price">₹100</span>
+        </div>
+        <div class="menu-item">
+            <img src="assets/img/Butterchicken.png" alt="Butter Chicken">
+            <span>Butter Chicken</span>
+            <span class="price">₹210</span>
+        </div>
+        <div class="menu-item">
+            <img src="assets/img/Palakpaneer.png" alt="Palak Paneer">
+            <span>Palak Paneer</span>
+            <span class="price">₹180</span>
+        </div>
+        <div class="menu-item">
+            <img src="assets/img/Gulabjamun.png" alt="Gulab Jamun">
+            <span>Gulab Jamun</span>
+            <span class="price">₹140</span>
+        </div>
+    </div>
+</body>
+</html>
